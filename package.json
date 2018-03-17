@@ -1,6 +1,6 @@
 {
   "name": "@tenry/graphql-decorators",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Generate GraphQL schema with annotated classes.",
   "keywords": [
     "graphql",
@@ -36,7 +36,10 @@
   "files": [
     "dist/index.js",
     "dist/decorators.js",
-    "dist/utils.js"
+    "dist/utils.js",
+    "dist/index.d.ts",
+    "dist/decorators.d.ts",
+    "dist/utils.d.ts"
   ],
   "types": "./dist/index.d.ts",
   "nyc": {
