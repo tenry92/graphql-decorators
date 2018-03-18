@@ -126,6 +126,31 @@ app.use('/graphql', graphqlHTTP({
 app.listen(8080);
 ~~~
 
+Using the example above, you can use GraphQL queries like the following:
+
+~~~graphql
+query {
+  users {
+    id
+    name
+    data
+    friends {
+      id
+      name
+      data
+    }
+  }
+}
+~~~
+
+~~~graphql
+mutation {
+  addUser(user: {name: "Max"}) {
+    id
+  }
+}
+~~~
+
 
 ## Installation and Usage
 

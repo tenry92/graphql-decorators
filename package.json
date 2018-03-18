@@ -1,6 +1,6 @@
 {
   "name": "@tenry/graphql-decorators",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Generate GraphQL schema with annotated classes.",
   "keywords": [
     "graphql",
