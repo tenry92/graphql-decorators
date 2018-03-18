@@ -132,7 +132,7 @@ app.listen(8080);
 Use `npm` to install the package:
 
 ~~~sh
-$ npm install @tenry/graphql-decorators
+$ npm install graphql graphql-type-json @tenry/graphql-decorators
 ~~~
 
 Now *import* the `Manager` class and the `decorators`:
